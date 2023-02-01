@@ -1,0 +1,30 @@
+/*Style the header with a background color*/
+header {
+	background-color: #D3D3D3; /*light grey*/
+}
+/*h1 elements should be centered and have a new font color*/
+h1 {
+	color: #ffffff; /*White*/
+	text-align: center;
+	text-transform: uppercase; /*style headings to be uppercase*/
+	font-size: 40px;
+}
+/*h2 elements have a new font color*/
+h2 {
+	color: #00008B; /*Blue*/
+	text-transform: uppercase; /*style headings to be uppercase*/
+	font-size: 30px;
+}
+/*sections should have a new background color*/
+section {
+	background-color: #A9A9A9; /*DarkGrey*/
+}
+/*links should have a new font color and background color*/
+a {
+	background-color: #D3D3D3; /*LightGray*/ 
+	font-weight: bold;
+}
+/*The images should not be displayed on the page*/ 
+img {
+	display: none;
+}
