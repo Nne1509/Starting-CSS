@@ -1,0 +1,76 @@
+/*The body should have a padding and a margin*/
+body{
+  padding: 10 px;
+  margin: 5 px;
+  font-family: Times; 
+  background-color: #F5F5F5;
+}
+
+/*The header should have a background color, background image and padding*/
+header{
+  background-color: #F5F5F5; /*White smoke*/
+  background-image: url(Desktop\images\flywheel.jpg");
+  padding: 10 px;
+}
+
+/*The navigation links (and only the links in the navigation)  should be styled with a new display, margin, border-radius, text-decoration, and padding*/
+nav a{
+  background-color:#f5fffa;
+  opacity: 0.7;
+  width: 22%;
+  display: inline-block;
+  margin: 1%;
+  border-radius: 5 px;
+  text-decoration: none;
+  padding: 10 px;
+  text-align: center;
+  font-size: 200%;
+}
+
+h1{
+  text-align: center;
+  text-transform: uppercase; 
+  color: #ffffff;
+  font-size: 20 px; 
+}
+
+h2{
+  text-align: left;
+  color:black;
+  font-size: 50px; 
+}
+/*The sections should be next to each other, not one on top of the other.*/ 
+.left {
+		background: #808000; /*Olive*/ 
+		width: 40%;
+		float: left;
+		padding: 10px; 	
+	}
+
+/*The images should be part of the page now.  In addition, they should have a border, be centered horizontally, and have vertical (top/bottom) space between them and the other images.*/
+	.left img {
+		display: block;
+		border: solid 3px #000000; /*Black*/
+		width: 75%;
+		margin: 0 auto;
+		margin-top: 15%;
+		margin-bottom: 40%;
+}
+
+	.right {
+		width: 70%;
+		display: inline-block;
+		padding-left: 1%;
+}
+   
+
+	p {
+		font-family: "Times";
+		font-size: 250%;
+	}
+
+/* The link to the current page should be styled differently from the other links (using class = "active') */ 
+.active {
+		background: #FFFFFF; /*White*/
+	}	
+
