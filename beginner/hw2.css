@@ -74,3 +74,44 @@ h2{
 		background: #FFFFFF; /*White*/
 	}	
 
+/*The table should be styled using at least four properties*/
+table{
+  width: 900px;
+  font-family: arial; 
+  font-weight: bold;
+  font-size: 150%; 
+  line-height: 200%;
+  margin: 80px; 
+}
+
+/*The table headings should have a thicker bottom border with the top two corners rounded, a background color, and at least one other property*/
+th{
+  background-color: #6B8E23; /*OliveDrab*/
+  color: #ffffff; /*White*/
+  border: 2px solid #32CD32;
+  border-width: thin thin thick thin; 
+  border-radius: 5px 5px 0 0;
+}
+
+/*The table elements <td> should be styled using at least four  properties*/
+td{
+  background-color: #8FBC8F;
+  color: #696969;
+  padding: .5%;
+  text-align: center;
+}
+
+/*Style the table so that the text in the first column is left-aligned and the text in the other two columns is centered*/
+th:first-child, td:first-child{
+  text-align: left; 
+}
+
+/*Set the opacity of the table rows to a value between .6 and .8 (make sure it is still visible)*/
+tr td{
+  opacity: 0.8;
+}
+
+/*Change the opacity of a row when it is hovered over*/
+tr td:hover, tr th:hover{
+  opacity: 2; 
+}	
