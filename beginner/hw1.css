@@ -17,11 +17,11 @@ h2 {
 }
 /*sections should have a new background color*/
 section {
-	background-color: #A9A9A9; /*DarkGrey*/
+	background-color: #A9A9A9; /*Dark grey*/
 }
 /*links should have a new font color and background color*/
 a {
-	background-color: #D3D3D3; /*LightGray*/ 
+	background-color: #D3D3D3; /*Light grey*/ 
 	font-weight: bold;
 }
 /*The images should not be displayed on the page*/ 
